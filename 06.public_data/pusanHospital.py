@@ -20,14 +20,7 @@ def getRequestUrl(url):
 
 def getHospitalData(pageNo, numOfRows):
     end_point = 'http://apis.data.go.kr/6260000/MedicInstitService/MedicalInstitInfo'
-    
-#     일반 인증키
-# (Encoding)	
-# 
-# 일반 인증키
-# (Decoding)	
-# SbocJjNjKADXSRaHDXBnRLvvmOlT9wCwQb7yPXXqCoTUdhSEVElEofF5POZcHAatHNlGut2+UJTw/EVKHofM7g==
-    
+
     access_key = 'SbocJjNjKADXSRaHDXBnRLvvmOlT9wCwQb7yPXXqCoTUdhSEVElEofF5POZcHAatHNlGut2%2BUJTw%2FEVKHofM7g%3D%3D'
     
     params = '?resultType=json'
