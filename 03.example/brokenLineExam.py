@@ -18,7 +18,7 @@ plt.rcParams['font.family'] = 'NanumGothic'
 cnt, PNG, UNDERBAR=0, '.png', '_'
 
 CHART_NAME = 'brokenLineExam'
-fileName = '../data/abc.csv'
+fileName = '../data/WeeklyTrendsInMajorOccurringCountries.csv'
 
 #################################################################
 
