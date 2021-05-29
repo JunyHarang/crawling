@@ -51,7 +51,7 @@ nPage = 0
 while(True):
     print('pageNo : %d, nPage : %d' % (pageNo, nPage))
     jsonData = getHospitalData(pageNo, numOfRows)
-    # print(jsonData)
+    print('jsonData 는 ' + str(jsonData))
     print('='*50)
     
     # 전달 받은 데이터에 접속을 성공 했다면?
